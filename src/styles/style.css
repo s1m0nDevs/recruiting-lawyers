@@ -1,0 +1,99 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.container strong {
+  font-size: 50px;
+  margin-top: 200px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.lawyers-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.table-title,
+.table-data {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  width: 5%;
+  border: 1px solid;
+  text-align: center;
+  word-break: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 0;
+}
+
+.control-buttons {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.import-data-button {
+  border: 2px solid #81a975;
+  background: lightgreen;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.incorrect-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  background: #f4cccc;
+  border: 1px solid #85454b;
+  border-radius: 5px;
+  padding: 35px;
+  width: 60%;
+  margin: 200px auto 0;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.w-9 {
+  width: 9%;
+}
+
+.w-12 {
+  width: 12%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.v-h {
+  visibility: hidden;
+}
+
+.invalid {
+  background: #f4cccc;
+}
